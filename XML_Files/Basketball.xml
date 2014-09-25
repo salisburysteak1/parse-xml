@@ -1,0 +1,132 @@
+<spocosy version="1.0" responsetime="2011-03-15 13:56:16" exec="0.128">
+<query-response requestid="" service="objectquery">
+<sport name="Basketball" enetSportCode="bb" del="no" n="0" ut="2009-12-29 15:36:24" id="23">
+<tournament_template name="USA 1" sportFK="23" gender="male" enetID="0" del="no" n="0" ut="2010-02-18 16:13:30" id="390">
+<tournament name="2010/2011" tournament_templateFK="390" enetSeasonID="55" del="no" locked="none" n="0" ut="2010-08-12 11:03:03" id="5564">
+<tournament_stage name="NBA" tournamentFK="5564" countryFK="16" gender="male" enetID="1" startdate="2010-10-27" enddate="2011-04-14" del="no" locked="none" n="47" ut="2011-01-19 11:15:29" id="821559">
+<properties>
+<property object="tournament_stage" objectFK="821559" type="metadata" name="International" value="no" del="no" n="0" ut="2010-08-12 11:04:01" id="10654377"/>
+<property object="tournament_stage" objectFK="821559" type="metadata" name="Cup" value="no" del="no" n="0" ut="2010-08-12 11:04:01" id="10654378"/>
+<property object="tournament_stage" objectFK="821559" type="metadata" name="Live" value="yes" del="no" n="0" ut="2010-08-12 11:04:01" id="10654379"/>
+<property object="tournament_stage" objectFK="821559" type="metadata" name="Note" value="PK : Live with topgoalscores for each team after match (Squads : PK" del="no" n="0" ut="2010-08-12 11:04:01" id="10654380"/>
+<property object="tournament_stage" objectFK="821559" type="metadata" name="Ranking" value="1" del="no" n="0" ut="2010-08-12 11:04:01" id="10654381"/>
+</properties>
+<event name="L. A. Lakers-Orlando Magic" tournament_stageFK="821559" startdate="2011-03-15 03:30:00" eventstatusFK="0" status_type="finished" status_descFK="6" enetID="0" enetSportID="" del="no" locked="none" n="7" ut="2011-03-15 06:08:39" id="905166">
+<properties>
+<property object="event" objectFK="905166" type="metadata" name="Round" value="1" del="no" n="0" ut="2010-08-13 11:59:33" id="10659840"/>
+<property object="event" objectFK="905166" type="metadata" name="Live" value="yes" del="no" n="0" ut="2010-08-13 11:59:33" id="10659841"/>
+<property object="event" objectFK="905166" type="metadata" name="VenueName" value="Staples Center" del="no" n="0" ut="2010-10-01 11:06:37" id="11016125"/>
+<property object="event" objectFK="905166" type="metadata" name="GameStarted" value="2011-03-15 03:42:01" del="no" n="0" ut="2011-03-15 03:42:58" id="11982135"/>
+<property object="event" objectFK="905166" type="metadata" name="ElapsedTime" value="0" del="no" n="82" ut="2011-03-15 06:01:08" id="11982137"/>
+<property object="event" objectFK="905166" type="metadata" name="GameEnded" value="2011-03-15 06:01:02" del="no" n="0" ut="2011-03-15 06:01:26" id="11982264"/>
+<property object="event" objectFK="905166" type="metadata" name="Verified" value="yes" del="no" n="0" ut="2011-03-15 06:08:39" id="11982273"/>
+</properties>
+<event_participant number="1" participantFK="58553" eventFK="905166" del="no" n="0" ut="2010-08-13 11:59:33" id="2402262">
+<participant name="L. A. Lakers" gender="male" type="team" countryFK="16" enetID="48" enetSportID="bb" del="no" n="0" ut="2010-09-30 14:42:42" id="58553"/>
+<results>
+<result event_participantsFK="2402262" result_typeFK="1" result_code="ordinarytime" value="97" del="no" n="45" ut="2011-03-15 05:56:53" id="8370058"/>
+<result event_participantsFK="2402262" result_typeFK="6" result_code="runningscore" value="97" del="no" n="45" ut="2011-03-15 05:56:53" id="9471980"/>
+<result event_participantsFK="2402262" result_typeFK="60" result_code="quarter1" value="19" del="no" n="8" ut="2011-03-15 04:08:46" id="9471981"/>
+<result event_participantsFK="2402262" result_typeFK="61" result_code="quarter2" value="22" del="no" n="10" ut="2011-03-15 04:41:45" id="9471996"/>
+<result event_participantsFK="2402262" result_typeFK="5" result_code="halftime" value="41" del="no" n="10" ut="2011-03-15 04:41:54" id="9471997"/>
+<result event_participantsFK="2402262" result_typeFK="62" result_code="quarter3" value="30" del="no" n="15" ut="2011-03-15 05:25:08" id="9472022"/>
+<result event_participantsFK="2402262" result_typeFK="63" result_code="quarter4" value="26" del="no" n="12" ut="2011-03-15 05:56:53" id="9472138"/>
+<result event_participantsFK="2402262" result_typeFK="4" result_code="finalresult" value="97" del="no" n="0" ut="2011-03-15 06:01:21" id="9472174"/>
+</results>
+<lineups>
+<lineup event_participantsFK="2402262" participantFK="229051" lineup_typeFK="6" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-15 03:03:12" id="2743356">
+<participant name="Derek Fisher" gender="male" type="athlete" countryFK="16" enetID="0" enetSportID="" del="no" n="0" ut="2010-10-14 17:08:47" id="229051"/>
+</lineup>
+<lineup event_participantsFK="2402262" participantFK="229084" lineup_typeFK="6" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-15 03:03:12" id="2743357">
+<participant name="Ron Artest" gender="male" type="athlete" countryFK="16" enetID="0" enetSportID="" del="no" n="0" ut="2010-10-14 17:08:47" id="229084"/>
+</lineup>
+<lineup event_participantsFK="2402262" participantFK="229068" lineup_typeFK="6" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-15 03:03:12" id="2743362">
+<participant name="Kobe Bryant" gender="male" type="athlete" countryFK="16" enetID="0" enetSportID="" del="no" n="0" ut="2010-10-14 17:08:47" id="229068"/>
+</lineup>
+<lineup event_participantsFK="2402262" participantFK="229052" lineup_typeFK="6" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-15 03:03:12" id="2743363">
+<participant name="Pau Gasol" gender="male" type="athlete" countryFK="8" enetID="0" enetSportID="" del="no" n="0" ut="2010-10-14 17:08:47" id="229052"/>
+</lineup>
+<lineup event_participantsFK="2402262" participantFK="229067" lineup_typeFK="6" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-15 03:03:12" id="2743364">
+<participant name="Andrew Bynum" gender="male" type="athlete" countryFK="16" enetID="0" enetSportID="" del="no" n="0" ut="2010-09-30 15:03:20" id="229067"/>
+</lineup>
+<lineup event_participantsFK="2402262" participantFK="229353" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-15 03:57:57" id="2743400">
+<participant name="Lamar Odom" gender="male" type="athlete" countryFK="16" enetID="0" enetSportID="" del="no" n="0" ut="2010-10-14 17:08:47" id="229353"/>
+</lineup>
+<lineup event_participantsFK="2402262" participantFK="229085" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-15 04:04:33" id="2743407">
+<participant name="Shannon Brown" gender="male" type="athlete" countryFK="16" enetID="0" enetSportID="" del="no" n="0" ut="2010-09-30 15:03:31" id="229085"/>
+</lineup>
+<lineup event_participantsFK="2402262" participantFK="229431" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-15 04:05:04" id="2743409">
+<participant name="Matt Barnes" gender="male" type="athlete" countryFK="16" enetID="0" enetSportID="" del="no" n="0" ut="2010-10-05 08:23:56" id="229431"/>
+</lineup>
+<lineup event_participantsFK="2402262" participantFK="229355" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-15 04:09:37" id="2743410">
+<participant name="Steve Blake" gender="male" type="athlete" countryFK="16" enetID="0" enetSportID="" del="no" n="0" ut="2010-10-05 08:23:56" id="229355"/>
+</lineup>
+<lineup event_participantsFK="2402262" participantFK="229059" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-15 06:09:30" id="2743422">
+<participant name="Luke Walton" gender="male" type="athlete" countryFK="16" enetID="0" enetSportID="" del="no" n="0" ut="2010-10-14 17:08:53" id="229059"/>
+</lineup>
+<lineup event_participantsFK="2402262" participantFK="229379" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-15 06:09:30" id="2743423">
+<participant name="Joe Smith" gender="male" type="athlete" countryFK="16" enetID="0" enetSportID="" del="no" n="0" ut="2010-09-30 15:05:25" id="229379"/>
+</lineup>
+<lineup event_participantsFK="2402262" participantFK="229050" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-15 06:09:30" id="2743424">
+<participant name="Derrick Caracter" gender="male" type="athlete" countryFK="16" enetID="0" enetSportID="" del="no" n="0" ut="2010-09-30 15:03:20" id="229050"/>
+</lineup>
+</lineups>
+</event_participant>
+<event_participant number="2" participantFK="58510" eventFK="905166" del="no" n="0" ut="2010-08-13 11:59:33" id="2402263">
+<participant name="Orlando Magic" gender="male" type="team" countryFK="16" enetID="5" enetSportID="bb" del="no" n="0" ut="2010-09-30 14:37:25" id="58510"/>
+<results>
+<result event_participantsFK="2402263" result_typeFK="1" result_code="ordinarytime" value="84" del="no" n="37" ut="2011-03-15 05:58:56" id="8370059"/>
+<result event_participantsFK="2402263" result_typeFK="6" result_code="runningscore" value="84" del="no" n="36" ut="2011-03-15 05:58:56" id="9471984"/>
+<result event_participantsFK="2402263" result_typeFK="60" result_code="quarter1" value="25" del="no" n="8" ut="2011-03-15 04:06:18" id="9471985"/>
+<result event_participantsFK="2402263" result_typeFK="61" result_code="quarter2" value="21" del="no" n="9" ut="2011-03-15 04:41:54" id="9471998"/>
+<result event_participantsFK="2402263" result_typeFK="5" result_code="halftime" value="46" del="no" n="9" ut="2011-03-15 04:41:54" id="9471999"/>
+<result event_participantsFK="2402263" result_typeFK="62" result_code="quarter3" value="20" del="no" n="11" ut="2011-03-15 05:25:43" id="9472023"/>
+<result event_participantsFK="2402263" result_typeFK="63" result_code="quarter4" value="18" del="no" n="8" ut="2011-03-15 05:58:56" id="9472139"/>
+<result event_participantsFK="2402263" result_typeFK="4" result_code="finalresult" value="84" del="no" n="0" ut="2011-03-15 06:01:21" id="9472175"/>
+</results>
+<lineups>
+<lineup event_participantsFK="2402263" participantFK="229253" lineup_typeFK="6" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-15 03:03:12" id="2743358">
+<participant name="Dwight Howard" gender="male" type="athlete" countryFK="16" enetID="0" enetSportID="" del="no" n="0" ut="2010-09-30 15:04:30" id="229253"/>
+</lineup>
+<lineup event_participantsFK="2402263" participantFK="229300" lineup_typeFK="6" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-15 03:03:12" id="2743359">
+<participant name="Jason Richardson" gender="male" type="athlete" countryFK="16" enetID="0" enetSportID="" del="no" n="0" ut="2010-10-05 08:23:13" id="229300"/>
+</lineup>
+<lineup event_participantsFK="2402263" participantFK="229299" lineup_typeFK="6" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-15 03:03:12" id="2743360">
+<participant name="Hedo Turkoglu" gender="male" type="athlete" countryFK="13" enetID="0" enetSportID="" del="no" n="0" ut="2010-10-05 08:23:13" id="229299"/>
+</lineup>
+<lineup event_participantsFK="2402263" participantFK="229255" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="1" ut="2011-03-15 03:57:57" id="2743361">
+<participant name="Brandon Bass" gender="male" type="athlete" countryFK="16" enetID="0" enetSportID="" del="no" n="0" ut="2010-10-05 08:23:37" id="229255"/>
+</lineup>
+<lineup event_participantsFK="2402263" participantFK="229441" lineup_typeFK="6" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-15 03:03:12" id="2743365">
+<participant name="Jameer Nelson" gender="male" type="athlete" countryFK="16" enetID="0" enetSportID="" del="no" n="0" ut="2010-10-05 08:23:37" id="229441"/>
+</lineup>
+<lineup event_participantsFK="2402263" participantFK="229432" lineup_typeFK="6" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-15 03:41:33" id="2743396">
+<participant name="Ryan Anderson" gender="male" type="athlete" countryFK="16" enetID="0" enetSportID="" del="no" n="0" ut="2010-10-05 08:23:37" id="229432"/>
+</lineup>
+<lineup event_participantsFK="2402263" participantFK="229438" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-15 04:04:06" id="2743406">
+<participant name="Chris Duhon" gender="male" type="athlete" countryFK="16" enetID="0" enetSportID="" del="no" n="0" ut="2010-10-05 08:23:37" id="229438"/>
+</lineup>
+<lineup event_participantsFK="2402263" participantFK="229375" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-15 04:04:33" id="2743408">
+<participant name="Gilbert Arenas" gender="male" type="athlete" countryFK="16" enetID="0" enetSportID="" del="no" n="0" ut="2010-10-05 08:23:56" id="229375"/>
+</lineup>
+<lineup event_participantsFK="2402263" participantFK="229401" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-15 04:46:01" id="2743411">
+<participant name="Quentin Richardson" gender="male" type="athlete" countryFK="16" enetID="0" enetSportID="" del="no" n="0" ut="2010-10-05 08:23:37" id="229401"/>
+</lineup>
+<lineup event_participantsFK="2402263" participantFK="229443" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-15 06:09:30" id="2743425">
+<participant name="J.J. Redick" gender="male" type="athlete" countryFK="16" enetID="0" enetSportID="" del="no" n="0" ut="2010-10-05 08:23:37" id="229443"/>
+</lineup>
+<lineup event_participantsFK="2402263" participantFK="229285" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-15 06:09:30" id="2743426">
+<participant name="Earl Clark" gender="male" type="athlete" countryFK="16" enetID="0" enetSportID="" del="no" n="0" ut="2010-09-30 15:04:41" id="229285"/>
+</lineup>
+<lineup event_participantsFK="2402263" participantFK="229256" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-15 06:09:30" id="2743427">
+<participant name="Malik Allen" gender="male" type="athlete" countryFK="16" enetID="0" enetSportID="" del="no" n="0" ut="2010-09-30 15:04:30" id="229256"/>
+</lineup>
+</lineups>
+</event_participant>
+</event>
+</tournament_stage>
+</tournament>
+</tournament_template>
+</sport>
+</query-response>
+</spocosy>

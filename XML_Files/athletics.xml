@@ -1,0 +1,70 @@
+<spocosy version="1.0">
+<sports>
+<sport id="4" name="Athletics" enetSportCode="at" n="0" ut="2010-09-30 08:25:38" del="no">
+<tournament_template id="452" name="World Tour 1" sportFK="4" gender="undefined" enetID="0" n="0" ut="2010-11-10 10:22:36" del="no">
+<tournament id="3562" name="2008" tournament_templateFK="452" enetSeasonID="43" n="0" locked="none" ut="2008-10-08 17:14:59" del="no">
+<tournament_stage id="814650" name="World Athletics Final" tournamentFK="3562" gender="male" countryFK="33" enetID="39" startdate="2008-09-13" enddate="2008-09-14" n="3" locked="none" ut="2011-02-27 10:30:55" del="no">
+<events>
+<event id="535974" name="100 Metres" tournament_stageFK="814650" startdate="2008-09-13 17:15:00" eventstatusFK="7" status_type="finished" status_descFK="6" enetID="1475" enetSportID="at" n="0" ut="2008-10-23 10:39:42" del="no" locked="none">
+<properties>
+<property id="5918945" object="event" objectFK="535974" type="metadata" name="Round" value="8001 - 1/1 (Final)" n="0" ut="2008-10-23 01:01:41" del="no"/>
+<property id="5918946" object="event" objectFK="535974" type="metadata" name="Live" value="no" n="0" ut="2008-10-23 01:01:41" del="no"/>
+</properties>
+<event_participants>
+<event_participant id="1494160" number="1" participantFK="63902" eventFK="535974" n="0" ut="2008-10-09 03:59:59" del="no" participantName="Asafa Powell">
+<results>
+<result id="5066652" event_participantsFK="1494160" result_typeFK="100" result_code="rank" value="1" n="0" ut="2008-10-12 10:18:43" del="no"/>
+<result id="5066653" event_participantsFK="1494160" result_typeFK="101" result_code="duration" value="9.87" n="0" ut="2008-10-12 10:18:43" del="no"/>
+</results>
+</event_participant>
+<event_participant id="1494161" number="2" participantFK="78927" eventFK="535974" n="0" ut="2008-10-09 03:59:59" del="no" participantName="Nesta Carter">
+<results>
+<result id="5066654" event_participantsFK="1494161" result_typeFK="100" result_code="rank" value="2" n="0" ut="2008-10-12 10:18:43" del="no"/>
+<result id="5066655" event_participantsFK="1494161" result_typeFK="101" result_code="duration" value="10.07" n="0" ut="2008-10-12 10:18:43" del="no"/>
+</results>
+</event_participant>
+<event_participant id="1494162" number="3" participantFK="63909" eventFK="535974" n="0" ut="2008-10-09 03:59:59" del="no" participantName="Michael Frater">
+<results>
+<result id="5066656" event_participantsFK="1494162" result_typeFK="100" result_code="rank" value="3" n="0" ut="2008-10-12 10:18:43" del="no"/>
+<result id="5066657" event_participantsFK="1494162" result_typeFK="101" result_code="duration" value="10.10" n="0" ut="2008-10-12 10:18:43" del="no"/>
+</results>
+</event_participant>
+<event_participant id="1494163" number="4" participantFK="64558" eventFK="535974" n="0" ut="2008-10-09 03:59:59" del="no" participantName="Kim Collins">
+<results>
+<result id="5066658" event_participantsFK="1494163" result_typeFK="100" result_code="rank" value="4" n="0" ut="2008-10-12 10:18:43" del="no"/>
+<result id="5066659" event_participantsFK="1494163" result_typeFK="101" result_code="duration" value="10.22" n="0" ut="2008-10-12 10:18:43" del="no"/>
+</results>
+</event_participant>
+<event_participant id="1494167" number="5" participantFK="65032" eventFK="535974" n="0" ut="2008-10-09 03:59:59" del="no" participantName="Marc Burns">
+<results>
+<result id="5066682" event_participantsFK="1494167" result_typeFK="100" result_code="rank" value="5" n="0" ut="2008-10-12 10:18:43" del="no"/>
+<result id="5066683" event_participantsFK="1494167" result_typeFK="101" result_code="duration" value="10.22" n="0" ut="2008-10-12 10:18:43" del="no"/>
+</results>
+</event_participant>
+<event_participant id="1494168" number="6" participantFK="116673" eventFK="535974" n="0" ut="2008-10-09 03:59:59" del="no" participantName="Michael Rodgers">
+<results>
+<result id="5066684" event_participantsFK="1494168" result_typeFK="100" result_code="rank" value="6" n="0" ut="2008-10-12 10:18:43" del="no"/>
+<result id="5066685" event_participantsFK="1494168" result_typeFK="101" result_code="duration" value="10.27" n="0" ut="2008-10-12 10:18:43" del="no"/>
+</results>
+</event_participant>
+<event_participant id="1494169" number="7" participantFK="63276" eventFK="535974" n="0" ut="2008-10-09 03:59:59" del="no" participantName="Ronald Pognon">
+<results>
+<result id="5066686" event_participantsFK="1494169" result_typeFK="100" result_code="rank" value="7" n="0" ut="2008-10-12 10:18:43" del="no"/>
+<result id="5066687" event_participantsFK="1494169" result_typeFK="101" result_code="duration" value="10.27" n="0" ut="2008-10-12 10:18:43" del="no"/>
+</results>
+</event_participant>
+<event_participant id="1494170" number="8" participantFK="63325" eventFK="535974" n="0" ut="2008-10-09 03:59:59" del="no" participantName="Marlon Devonish">
+<results>
+<result id="5066688" event_participantsFK="1494170" result_typeFK="100" result_code="rank" value="8" n="0" ut="2008-10-12 10:18:43" del="no"/>
+<result id="5066689" event_participantsFK="1494170" result_typeFK="101" result_code="duration" value="10.37" n="0" ut="2008-10-12 10:18:43" del="no"/>
+</results>
+</event_participant>
+</event_participants>
+</event>
+</events>
+</tournament_stage>
+</tournament>
+</tournament_template>
+</sport>
+</sports>
+</spocosy>

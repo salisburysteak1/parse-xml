@@ -1,0 +1,77 @@
+<spocosy version="1.0">
+<sports>
+<sport id="46" name="Swimming" enetSportCode="sw" n="0" ut="2010-06-28 07:00:56" del="no">
+<tournament_template id="8863" name="Summer Olympics" sportFK="46" gender="undefined" enetID="0" n="0" ut="2010-11-10 10:22:16" del="no">
+<tournament id="3679" name="2008" tournament_templateFK="8863" enetSeasonID="43" n="0" locked="none" ut="2008-10-08 17:15:00" del="no">
+<tournament_stage id="814378" name="Summer Olympics" tournamentFK="3679" gender="male" countryFK="11" enetID="6" startdate="2008-08-09" enddate="2008-08-21" n="3" locked="none" ut="2011-02-27 10:30:55" del="no">
+<events>
+<event id="479850" name="Freestyle 400m" tournament_stageFK="814378" startdate="2008-08-10 04:24:00" eventstatusFK="7" status_type="finished" status_descFK="6" enetID="991" enetSportID="sw" n="0" ut="2008-10-23 10:19:04" del="no" locked="none">
+<properties>
+<property id="5474105" object="event" objectFK="479850" type="metadata" name="Round" value="8001 - 1/1 (Final)" n="0" ut="2008-10-22 21:47:04" del="no"/>
+<property id="5474106" object="event" objectFK="479850" type="metadata" name="Live" value="no" n="0" ut="2008-10-22 21:47:04" del="no"/>
+<property id="5474107" object="event" objectFK="479850" type="metadata" name="Type" value="Male" n="0" ut="2008-10-22 21:47:04" del="no"/>
+</properties>
+<event_participants>
+<event_participant id="1438059" number="1" participantFK="125643" eventFK="479850" n="0" ut="2008-10-09 03:35:53" del="no" participantName="Grant Hackett">
+<results>
+<result id="4898915" event_participantsFK="1438059" result_typeFK="100" result_code="rank" value="6" n="0" ut="2008-10-12 09:05:42" del="no"/>
+<result id="4898916" event_participantsFK="1438059" result_typeFK="101" result_code="duration" value="3:43.84" n="0" ut="2008-10-12 09:05:43" del="no"/>
+</results>
+</event_participant>
+<event_participant id="1438060" number="2" participantFK="125050" eventFK="479850" n="0" ut="2008-10-09 03:35:53" del="no" participantName="Peter Vanderkaay">
+<results>
+<result id="4898917" event_participantsFK="1438060" result_typeFK="100" result_code="rank" value="4" n="0" ut="2008-10-12 09:05:43" del="no"/>
+<result id="4898918" event_participantsFK="1438060" result_typeFK="101" result_code="duration" value="3:43.11" n="0" ut="2008-10-12 09:05:43" del="no"/>
+</results>
+</event_participant>
+<event_participant id="1438061" number="3" participantFK="125646" eventFK="479850" n="0" ut="2008-10-09 03:35:53" del="no" participantName="Larsen Jensen">
+<results>
+<result id="4898919" event_participantsFK="1438061" result_typeFK="100" result_code="rank" value="3" n="0" ut="2008-10-12 09:05:43" del="no"/>
+<result id="4898920" event_participantsFK="1438061" result_typeFK="101" result_code="duration" value="3:42.78" n="0" ut="2008-10-12 09:05:43" del="no"/>
+<result id="4898921" event_participantsFK="1438061" result_typeFK="104" result_code="comment" value="AM" n="0" ut="2008-10-12 09:05:43" del="no"/>
+<result id="4898938" event_participantsFK="1438061" result_typeFK="501" result_code="medal" value="bronze" n="0" ut="2008-10-12 09:05:43" del="no"/>
+</results>
+</event_participant>
+<event_participant id="1438062" number="4" participantFK="124785" eventFK="479850" n="0" ut="2008-10-09 03:35:53" del="no" participantName="Yuri Prilukov">
+<results>
+<result id="4898922" event_participantsFK="1438062" result_typeFK="100" result_code="rank" value="7" n="0" ut="2008-10-12 09:05:43" del="no"/>
+<result id="4898923" event_participantsFK="1438062" result_typeFK="101" result_code="duration" value="3:43.97" n="0" ut="2008-10-12 09:05:43" del="no"/>
+</results>
+</event_participant>
+<event_participant id="1438063" number="5" participantFK="125632" eventFK="479850" n="0" ut="2008-10-09 03:35:53" del="no" participantName="Lin Zhang">
+<results>
+<result id="4898924" event_participantsFK="1438063" result_typeFK="100" result_code="rank" value="2" n="0" ut="2008-10-12 09:05:43" del="no"/>
+<result id="4898925" event_participantsFK="1438063" result_typeFK="101" result_code="duration" value="3:42.44" n="0" ut="2008-10-12 09:05:43" del="no"/>
+<result id="4898937" event_participantsFK="1438063" result_typeFK="501" result_code="medal" value="silver" n="0" ut="2008-10-12 09:05:43" del="no"/>
+</results>
+</event_participant>
+<event_participant id="1438064" number="6" participantFK="125607" eventFK="479850" n="0" ut="2008-10-09 03:35:53" del="no" participantName="Oussama Mellouli">
+<results>
+<result id="4898926" event_participantsFK="1438064" result_typeFK="100" result_code="rank" value="5" n="0" ut="2008-10-12 09:05:43" del="no"/>
+<result id="4898927" event_participantsFK="1438064" result_typeFK="101" result_code="duration" value="3:43.45" n="0" ut="2008-10-12 09:05:43" del="no"/>
+<result id="4898928" event_participantsFK="1438064" result_typeFK="104" result_code="comment" value="NC" n="0" ut="2008-10-12 09:05:43" del="no"/>
+</results>
+</event_participant>
+<event_participant id="1438065" number="7" participantFK="125637" eventFK="479850" n="0" ut="2008-10-09 03:35:53" del="no" participantName="Tae-Hwan Park">
+<results>
+<result id="4898929" event_participantsFK="1438065" result_typeFK="100" result_code="rank" value="1" n="0" ut="2008-10-12 09:05:43" del="no"/>
+<result id="4898930" event_participantsFK="1438065" result_typeFK="101" result_code="duration" value="3:41.86" n="0" ut="2008-10-12 09:05:43" del="no"/>
+<result id="4898931" event_participantsFK="1438065" result_typeFK="104" result_code="comment" value="NC" n="0" ut="2008-10-12 09:05:43" del="no"/>
+<result id="4898936" event_participantsFK="1438065" result_typeFK="501" result_code="medal" value="gold" n="0" ut="2008-10-12 09:05:43" del="no"/>
+</results>
+</event_participant>
+<event_participant id="1438066" number="8" participantFK="125097" eventFK="479850" n="0" ut="2008-10-09 03:35:53" del="no" participantName="Nikita Lobintsev">
+<results>
+<result id="4898932" event_participantsFK="1438066" result_typeFK="100" result_code="rank" value="8" n="0" ut="2008-10-12 09:05:43" del="no"/>
+<result id="4898933" event_participantsFK="1438066" result_typeFK="101" result_code="duration" value="3:48.29" n="0" ut="2008-10-12 09:05:43" del="no"/>
+</results>
+</event_participant>
+</event_participants>
+</event>
+</events>
+</tournament_stage>
+</tournament>
+</tournament_template>
+</sport>
+</sports>
+</spocosy>

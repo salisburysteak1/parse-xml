@@ -1,0 +1,51 @@
+<spocosy version="1.0" responsetime="2011-03-15 13:55:01" exec="0.098">
+<query-response requestid="" service="objectquery">
+<sport name="Tennis" enetSportCode="ts" del="no" n="0" ut="2009-12-29 15:36:24" id="2">
+<tournament_template name="WTA" sportFK="2" gender="female" enetID="0" del="no" n="1" ut="2010-05-27 10:00:52" id="152">
+<tournament name="2011" tournament_templateFK="152" enetSeasonID="56" del="no" locked="none" n="0" ut="2010-12-31 12:23:43" id="5860">
+<tournament_stage name="BNP Paribas Open" tournamentFK="5860" countryFK="16" gender="undefined" enetID="110" startdate="2011-03-09" enddate="2011-03-16" del="no" locked="none" n="8" ut="2011-03-15 00:00:09" id="823430">
+<properties>
+<property object="tournament_stage" objectFK="823430" type="metadata" name="City" value="Indian Wells" del="no" n="0" ut="2011-03-08 07:16:30" id="11936149"/>
+<property object="tournament_stage" objectFK="823430" type="metadata" name="Tourtype" value="WTA" del="no" n="0" ut="2011-03-08 07:16:30" id="11936150"/>
+<property object="tournament_stage" objectFK="823430" type="metadata" name="Surface" value="Hard" del="no" n="0" ut="2011-03-08 07:16:30" id="11936151"/>
+<property object="tournament_stage" objectFK="823430" type="metadata" name="InOutDoor" value="Outdoor" del="no" n="0" ut="2011-03-08 07:16:30" id="11936152"/>
+</properties>
+<event name="Caroline Wozniacki-Maria Jose Martinez" tournament_stageFK="823430" startdate="2011-03-14 19:00:00" eventstatusFK="36" status_type="finished" status_descFK="6" enetID="106679" enetSportID="ts" del="no" locked="none" n="2" ut="2011-03-14 20:26:16" id="993783">
+<properties>
+<property object="event" objectFK="993783" type="metadata" name="TennisRound_Number" value="4001" del="no" n="0" ut="2011-03-13 02:40:15" id="11968523"/>
+<property object="event" objectFK="993783" type="metadata" name="Live" value="yes" del="no" n="0" ut="2011-03-13 02:40:15" id="11968524"/>
+<property object="event" objectFK="993783" type="metadata" name="Sets" value="3" del="no" n="0" ut="2011-03-13 02:40:15" id="11968525"/>
+<property object="event" objectFK="993783" type="metadata" name="firsttoserve" value="a" del="no" n="1" ut="2011-03-14 19:14:06" id="11968526"/>
+<property object="event" objectFK="993783" type="metadata" name="Comment" value="None" del="no" n="0" ut="2011-03-13 02:40:15" id="11968527"/>
+<property object="event" objectFK="993783" type="metadata" name="EventTypeName" value="Female Single" del="no" n="0" ut="2011-03-13 02:40:15" id="11968528"/>
+<property object="event" objectFK="993783" type="metadata" name="GameStarted" value="2011-03-14 19:13:59" del="no" n="0" ut="2011-03-14 19:14:00" id="11980735"/>
+<property object="event" objectFK="993783" type="metadata" name="GameEnded" value="2011-03-14 20:26:13" del="no" n="0" ut="2011-03-14 20:26:16" id="11981081"/>
+<property object="event" objectFK="993783" type="metadata" name="Winner" value="a" del="no" n="0" ut="2011-03-14 20:26:16" id="11981082"/>
+</properties>
+<event_participant number="1" participantFK="48790" eventFK="993783" del="no" n="0" ut="2011-03-13 02:40:15" id="2655934">
+<participant name="Caroline Wozniacki" gender="female" type="athlete" countryFK="1" enetID="1382" enetSportID="ts" del="no" n="1" ut="2007-02-12 10:19:32" id="48790"/>
+<results>
+<result event_participantsFK="2655934" result_typeFK="6" result_code="runningscore" value="2" del="no" n="2" ut="2011-03-14 20:26:17" id="9462020"/>
+<result event_participantsFK="2655934" result_typeFK="85" result_code="setswon" value="2" del="no" n="2" ut="2011-03-14 20:26:17" id="9462021"/>
+<result event_participantsFK="2655934" result_typeFK="80" result_code="set1" value="6" del="no" n="6" ut="2011-03-14 19:40:11" id="9470833"/>
+<result event_participantsFK="2655934" result_typeFK="81" result_code="set2" value="6" del="no" n="6" ut="2011-03-14 20:26:15" id="9470867"/>
+<result event_participantsFK="2655934" result_typeFK="4" result_code="finalresult" value="won" del="no" n="0" ut="2011-03-14 20:26:17" id="9471262"/>
+</results>
+</event_participant>
+<event_participant number="2" participantFK="48091" eventFK="993783" del="no" n="0" ut="2011-03-13 02:40:15" id="2655935">
+<participant name="Maria Jose Martinez" gender="female" type="athlete" countryFK="8" enetID="570" enetSportID="ts" del="no" n="1" ut="2007-02-12 10:19:31" id="48091"/>
+<results>
+<result event_participantsFK="2655935" result_typeFK="6" result_code="runningscore" value="0" del="no" n="0" ut="2011-03-13 02:40:15" id="9462022"/>
+<result event_participantsFK="2655935" result_typeFK="85" result_code="setswon" value="0" del="no" n="0" ut="2011-03-13 02:40:15" id="9462023"/>
+<result event_participantsFK="2655935" result_typeFK="80" result_code="set1" value="1" del="no" n="1" ut="2011-03-14 19:30:28" id="9470834"/>
+<result event_participantsFK="2655935" result_typeFK="81" result_code="set2" value="3" del="no" n="3" ut="2011-03-14 20:15:48" id="9470868"/>
+<result event_participantsFK="2655935" result_typeFK="4" result_code="finalresult" value="lost" del="no" n="0" ut="2011-03-14 20:26:17" id="9471263"/>
+</results>
+</event_participant>
+</event>
+</tournament_stage>
+</tournament>
+</tournament_template>
+</sport>
+</query-response>
+</spocosy>

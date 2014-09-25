@@ -1,0 +1,285 @@
+<spocosy version="1.0" responsetime="2011-03-15 13:57:21" exec="0.19">
+<query-response requestid="" service="objectquery">
+<sport name="Ice Hockey" enetSportCode="ih" del="no" n="0" ut="2009-12-29 15:36:24" id="5">
+<tournament_template name="USA 1" sportFK="5" gender="male" enetID="0" del="no" n="0" ut="2010-02-18 16:13:27" id="24">
+<tournament name="2010/2011" tournament_templateFK="24" enetSeasonID="55" del="no" locked="none" n="0" ut="2010-06-30 11:23:56" id="5314">
+<tournament_stage name="NHL" tournamentFK="5314" countryFK="16" gender="male" enetID="23" startdate="2010-10-07" enddate="2011-04-11" del="no" locked="none" n="54" ut="2011-01-19 11:15:29" id="820840">
+<properties>
+<property object="tournament_stage" objectFK="820840" type="metadata" name="International" value="no" del="no" n="0" ut="2010-06-30 11:24:07" id="10324626"/>
+<property object="tournament_stage" objectFK="820840" type="metadata" name="Cup" value="no" del="no" n="0" ut="2010-06-30 11:24:07" id="10324627"/>
+<property object="tournament_stage" objectFK="820840" type="metadata" name="Live" value="yes" del="no" n="0" ut="2010-06-30 11:24:07" id="10324628"/>
+<property object="tournament_stage" objectFK="820840" type="metadata" name="Note" value="PK: Live with goalscores+assists (from the list)) (Squads : THA" del="no" n="0" ut="2010-06-30 11:24:07" id="10324629"/>
+<property object="tournament_stage" objectFK="820840" type="metadata" name="Ranking" value="1" del="no" n="0" ut="2010-06-30 11:24:07" id="10324630"/>
+</properties>
+<event name="Toronto Maple Leafs-Tampa Bay Lightning" tournament_stageFK="820840" startdate="2011-03-15 00:00:00" eventstatusFK="0" status_type="finished" status_descFK="6" enetID="0" enetSportID="" del="no" locked="none" n="8" ut="2011-03-15 02:45:12" id="852402">
+<properties>
+<property object="event" objectFK="852402" type="metadata" name="Round" value="1" del="no" n="0" ut="2010-06-30 11:37:32" id="10326853"/>
+<property object="event" objectFK="852402" type="metadata" name="Live" value="yes" del="no" n="0" ut="2010-06-30 11:37:32" id="10326854"/>
+<property object="event" objectFK="852402" type="metadata" name="VenueName" value="Air Canada Centre" del="no" n="0" ut="2010-10-06 11:18:26" id="11055084"/>
+<property object="event" objectFK="852402" type="metadata" name="GameStarted" value="2011-03-15 00:09:16" del="no" n="0" ut="2011-03-15 00:09:43" id="11981942"/>
+<property object="event" objectFK="852402" type="metadata" name="ElapsedTime" value="0" del="no" n="79" ut="2011-03-15 02:38:36" id="11981943"/>
+<property object="event" objectFK="852402" type="metadata" name="GameEnded" value="2011-03-15 02:38:09" del="no" n="0" ut="2011-03-15 02:38:36" id="11982076"/>
+<property object="event" objectFK="852402" type="metadata" name="Verified" value="yes" del="no" n="0" ut="2011-03-15 02:45:12" id="11982081"/>
+</properties>
+<event_participant number="1" participantFK="280" eventFK="852402" del="no" n="0" ut="2010-06-30 11:37:32" id="2278405">
+<participant name="Toronto Maple Leafs" gender="male" type="team" countryFK="16" enetID="371" enetSportID="ih" del="no" n="2" ut="2010-10-05 12:21:26" id="280"/>
+<incidents>
+<incident event_participantsFK="2278405" incident_typeFK="23" incident_code="card" ref_participantFK="75135" enetID="0" enetSportID="" elapsed="221" sortorder="1" del="no" n="0" ut="2011-03-15 00:16:49" id="1635972">
+<participant name="Phil Kessel" gender="undefined" type="athlete" countryFK="16" enetID="1705" enetSportID="ih" del="no" n="2" ut="2011-02-16 22:31:10" id="75135"/>
+</incident>
+<incident event_participantsFK="2278405" incident_typeFK="23" incident_code="card" ref_participantFK="99887" enetID="0" enetSportID="" elapsed="447" sortorder="1" del="no" n="0" ut="2011-03-15 00:25:52" id="1635974">
+<participant name="Mikhail Grabovski" gender="undefined" type="athlete" countryFK="3" enetID="2545" enetSportID="ih" del="no" n="1" ut="2010-10-05 12:57:45" id="99887"/>
+</incident>
+<incident event_participantsFK="2278405" incident_typeFK="7" incident_code="goal" ref_participantFK="78382" enetID="0" enetSportID="" elapsed="1512" sortorder="1" del="no" n="1" ut="2011-03-15 01:45:41" id="1635994">
+<participant name="Dion Phaneuf" gender="undefined" type="athlete" countryFK="23" enetID="1894" enetSportID="ih" del="no" n="1" ut="2010-10-05 12:57:57" id="78382"/>
+</incident>
+<incident event_participantsFK="2278405" incident_typeFK="34" incident_code="assist" ref_participantFK="100262" enetID="0" enetSportID="" elapsed="1512" sortorder="2" del="no" n="1" ut="2011-03-15 01:45:41" id="1635995">
+<participant name="Tim Brent" gender="undefined" type="athlete" countryFK="652" enetID="2813" enetSportID="ih" del="no" n="0" ut="2010-10-08 08:48:26" id="100262"/>
+</incident>
+<incident event_participantsFK="2278405" incident_typeFK="35" incident_code="assist" ref_participantFK="100126" enetID="0" enetSportID="" elapsed="1512" sortorder="3" del="no" n="1" ut="2011-03-15 01:45:41" id="1635996">
+<participant name="Joffrey Lupul" gender="undefined" type="athlete" countryFK="23" enetID="2715" enetSportID="ih" del="no" n="1" ut="2010-10-05 12:48:14" id="100126"/>
+</incident>
+<incident event_participantsFK="2278405" incident_typeFK="7" incident_code="goal" ref_participantFK="100533" enetID="0" enetSportID="" elapsed="2077" sortorder="1" del="no" n="0" ut="2011-03-15 01:33:45" id="1636013">
+<participant name="Nikolai Kulemin" gender="undefined" type="athlete" countryFK="22" enetID="3009" enetSportID="ih" del="no" n="1" ut="2010-10-05 12:57:51" id="100533"/>
+</incident>
+</incidents>
+<results>
+<result event_participantsFK="2278405" result_typeFK="1" result_code="ordinarytime" value="2" del="no" n="2" ut="2011-03-15 01:30:26" id="8036219"/>
+<result event_participantsFK="2278405" result_typeFK="51" result_code="period1" value="0" del="no" n="0" ut="2010-06-30 11:37:32" id="8036221"/>
+<result event_participantsFK="2278405" result_typeFK="6" result_code="runningscore" value="2" del="no" n="2" ut="2011-03-15 01:30:26" id="8036223"/>
+<result event_participantsFK="2278405" result_typeFK="52" result_code="period2" value="2" del="no" n="2" ut="2011-03-15 01:30:26" id="9471810"/>
+<result event_participantsFK="2278405" result_typeFK="53" result_code="period3" value="0" del="no" n="0" ut="2011-03-15 01:59:48" id="9471870"/>
+<result event_participantsFK="2278405" result_typeFK="4" result_code="finalresult" value="2" del="no" n="0" ut="2011-03-15 02:38:31" id="9471918"/>
+</results>
+<lineups>
+<lineup event_participantsFK="2278405" participantFK="100126" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-14 23:46:57" id="2743034">
+<participant name="Joffrey Lupul" gender="undefined" type="athlete" countryFK="23" enetID="2715" enetSportID="ih" del="no" n="1" ut="2010-10-05 12:48:14" id="100126"/>
+</lineup>
+<lineup event_participantsFK="2278405" participantFK="100612" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-14 23:46:57" id="2743035">
+<participant name="Mike Brown" gender="undefined" type="athlete" countryFK="652" enetID="3082" enetSportID="ih" del="no" n="0" ut="2010-10-05 15:26:58" id="100612"/>
+</lineup>
+<lineup event_participantsFK="2278405" participantFK="171000" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-14 23:46:57" id="2743036">
+<participant name="Carl Gunnarsson" gender="undefined" type="athlete" countryFK="6" enetID="4109" enetSportID="ih" del="no" n="1" ut="2010-10-05 12:57:45" id="171000"/>
+</lineup>
+<lineup event_participantsFK="2278405" participantFK="99417" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-14 23:46:57" id="2743037">
+<participant name="Brett Lebda" gender="undefined" type="athlete" countryFK="16" enetID="2368" enetSportID="ih" del="no" n="1" ut="2010-10-05 12:57:57" id="99417"/>
+</lineup>
+<lineup event_participantsFK="2278405" participantFK="100502" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-14 23:46:57" id="2743038">
+<participant name="Jay Rosehill" gender="undefined" type="athlete" countryFK="652" enetID="2978" enetSportID="ih" del="no" n="0" ut="2010-10-08 09:57:21" id="100502"/>
+</lineup>
+<lineup event_participantsFK="2278405" participantFK="100262" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-14 23:46:57" id="2743039">
+<participant name="Tim Brent" gender="undefined" type="athlete" countryFK="652" enetID="2813" enetSportID="ih" del="no" n="0" ut="2010-10-08 08:48:26" id="100262"/>
+</lineup>
+<lineup event_participantsFK="2278405" participantFK="186208" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-14 23:46:57" id="2743040">
+<participant name="Tyler Bozak" gender="undefined" type="athlete" countryFK="23" enetID="4381" enetSportID="ih" del="no" n="1" ut="2010-10-05 12:57:33" id="186208"/>
+</lineup>
+<lineup event_participantsFK="2278405" participantFK="100533" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-14 23:46:57" id="2743041">
+<participant name="Nikolai Kulemin" gender="undefined" type="athlete" countryFK="22" enetID="3009" enetSportID="ih" del="no" n="1" ut="2010-10-05 12:57:51" id="100533"/>
+</lineup>
+<lineup event_participantsFK="2278405" participantFK="156921" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-14 23:46:57" id="2743042">
+<participant name="Darryl Boyce" gender="undefined" type="athlete" countryFK="652" enetID="3963" enetSportID="ih" del="no" n="0" ut="2010-12-31 12:03:52" id="156921"/>
+</lineup>
+<lineup event_participantsFK="2278405" participantFK="98707" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-14 23:46:57" id="2743043">
+<participant name="Joseph Crabb" gender="undefined" type="athlete" countryFK="652" enetID="1909" enetSportID="ih" del="no" n="0" ut="2010-12-01 08:18:30" id="98707"/>
+</lineup>
+<lineup event_participantsFK="2278405" participantFK="75135" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-14 23:46:58" id="2743044">
+<participant name="Phil Kessel" gender="undefined" type="athlete" countryFK="16" enetID="1705" enetSportID="ih" del="no" n="2" ut="2011-02-16 22:31:10" id="75135"/>
+</lineup>
+<lineup event_participantsFK="2278405" participantFK="238748" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-14 23:46:58" id="2743045">
+<participant name="Keith Aulie" gender="male" type="athlete" countryFK="23" enetID="0" enetSportID="" del="no" n="0" ut="2010-11-13 09:57:22" id="238748"/>
+</lineup>
+<lineup event_participantsFK="2278405" participantFK="239088" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-14 23:46:58" id="2743046">
+<participant name="James Reimer" gender="male" type="athlete" countryFK="23" enetID="0" enetSportID="" del="no" n="0" ut="2010-11-18 09:35:46" id="239088"/>
+</lineup>
+<lineup event_participantsFK="2278405" participantFK="99887" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-14 23:46:58" id="2743047">
+<participant name="Mikhail Grabovski" gender="undefined" type="athlete" countryFK="3" enetID="2545" enetSportID="ih" del="no" n="1" ut="2010-10-05 12:57:45" id="99887"/>
+</lineup>
+<lineup event_participantsFK="2278405" participantFK="170999" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-14 23:46:58" id="2743048">
+<participant name="Jonas Gustavsson" gender="undefined" type="athlete" countryFK="652" enetID="4108" enetSportID="ih" del="no" n="0" ut="2009-10-06 05:27:58" id="170999"/>
+</lineup>
+<lineup event_participantsFK="2278405" participantFK="98758" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-14 23:46:58" id="2743049">
+<participant name="Jean-Sebastien Giguere" gender="undefined" type="athlete" countryFK="23" enetID="1960" enetSportID="ih" del="no" n="1" ut="2010-10-05 12:57:17" id="98758"/>
+</lineup>
+<lineup event_participantsFK="2278405" participantFK="98807" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-14 23:46:58" id="2743050">
+<participant name="Clarke MacArthur" gender="undefined" type="athlete" countryFK="23" enetID="2009" enetSportID="ih" del="no" n="1" ut="2010-10-05 12:57:57" id="98807"/>
+</lineup>
+<lineup event_participantsFK="2278405" participantFK="230012" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-14 23:46:58" id="2743051">
+<participant name="Fredrik Sjostrom" gender="male" type="athlete" countryFK="6" enetID="0" enetSportID="" del="no" n="0" ut="2010-10-05 14:53:16" id="230012"/>
+</lineup>
+<lineup event_participantsFK="2278405" participantFK="75438" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-14 23:46:58" id="2743052">
+<participant name="Colby Armstrong" gender="undefined" type="athlete" countryFK="23" enetID="1871" enetSportID="ih" del="no" n="1" ut="2010-10-05 12:57:33" id="75438"/>
+</lineup>
+<lineup event_participantsFK="2278405" participantFK="99894" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-14 23:46:58" id="2743053">
+<participant name="Michael Komisarek" gender="undefined" type="athlete" countryFK="16" enetID="2551" enetSportID="ih" del="no" n="1" ut="2010-10-05 12:57:51" id="99894"/>
+</lineup>
+<lineup event_participantsFK="2278405" participantFK="78382" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-14 23:46:58" id="2743054">
+<participant name="Dion Phaneuf" gender="undefined" type="athlete" countryFK="23" enetID="1894" enetSportID="ih" del="no" n="1" ut="2010-10-05 12:57:57" id="78382"/>
+</lineup>
+<lineup event_participantsFK="2278405" participantFK="158592" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-14 23:46:58" id="2743055">
+<participant name="Luke Schenn" gender="undefined" type="athlete" countryFK="23" enetID="3978" enetSportID="ih" del="no" n="1" ut="2010-10-05 12:58:04" id="158592"/>
+</lineup>
+</lineups>
+</event_participant>
+<event_participant number="2" participantFK="285" eventFK="852402" del="no" n="0" ut="2010-06-30 11:37:32" id="2278406">
+<participant name="Tampa Bay Lightning" gender="male" type="team" countryFK="16" enetID="375" enetSportID="ih" del="no" n="2" ut="2010-10-05 12:21:26" id="285"/>
+<incidents>
+<incident event_participantsFK="2278406" incident_typeFK="23" incident_code="card" ref_participantFK="75200" enetID="0" enetSportID="" elapsed="221" sortorder="1" del="no" n="0" ut="2011-03-15 00:16:09" id="1635971">
+<participant name="Sean Bergenheim" gender="undefined" type="athlete" countryFK="652" enetID="1757" enetSportID="ih" del="no" n="2" ut="2010-10-06 09:39:49" id="75200"/>
+</incident>
+<incident event_participantsFK="2278406" incident_typeFK="23" incident_code="card" ref_participantFK="100482" enetID="0" enetSportID="" elapsed="383" sortorder="1" del="no" n="0" ut="2011-03-15 00:22:44" id="1635973">
+<participant name="Mike Lundin" gender="undefined" type="athlete" countryFK="652" enetID="2965" enetSportID="ih" del="no" n="2" ut="2010-10-06 11:04:28" id="100482"/>
+</incident>
+<incident event_participantsFK="2278406" incident_typeFK="23" incident_code="card" ref_participantFK="75200" enetID="0" enetSportID="" elapsed="447" sortorder="1" del="no" n="0" ut="2011-03-15 00:25:52" id="1635975">
+<participant name="Sean Bergenheim" gender="undefined" type="athlete" countryFK="652" enetID="1757" enetSportID="ih" del="no" n="2" ut="2010-10-06 09:39:49" id="75200"/>
+</incident>
+<incident event_participantsFK="2278406" incident_typeFK="7" incident_code="goal" ref_participantFK="156347" enetID="0" enetSportID="" elapsed="593" sortorder="1" del="no" n="0" ut="2011-03-15 00:29:18" id="1635976">
+<participant name="Nate Thompson" gender="undefined" type="athlete" countryFK="16" enetID="3831" enetSportID="ih" del="no" n="1" ut="2010-10-05 12:59:19" id="156347"/>
+</incident>
+<incident event_participantsFK="2278406" incident_typeFK="34" incident_code="assist" ref_participantFK="186255" enetID="0" enetSportID="" elapsed="593" sortorder="2" del="no" n="0" ut="2011-03-15 00:29:18" id="1635977">
+<participant name="Teddy Purcell" gender="undefined" type="athlete" countryFK="23" enetID="4385" enetSportID="ih" del="no" n="1" ut="2010-10-05 12:59:13" id="186255"/>
+</incident>
+<incident event_participantsFK="2278406" incident_typeFK="35" incident_code="assist" ref_participantFK="99149" enetID="0" enetSportID="" elapsed="593" sortorder="3" del="no" n="0" ut="2011-03-15 00:30:52" id="1635978">
+<participant name="Brett Clark" gender="undefined" type="athlete" countryFK="652" enetID="2149" enetSportID="ih" del="no" n="2" ut="2010-10-06 11:00:57" id="99149"/>
+</incident>
+<incident event_participantsFK="2278406" incident_typeFK="23" incident_code="card" ref_participantFK="75355" enetID="0" enetSportID="" elapsed="1198" sortorder="1" del="no" n="0" ut="2011-03-15 00:48:40" id="1635984">
+<participant name="Eric Brewer" gender="undefined" type="athlete" countryFK="23" enetID="1841" enetSportID="ih" del="no" n="1" ut="2010-10-05 12:55:52" id="75355"/>
+</incident>
+<incident event_participantsFK="2278406" incident_typeFK="7" incident_code="goal" ref_participantFK="99426" enetID="0" enetSportID="" elapsed="1765" sortorder="1" del="no" n="0" ut="2011-03-15 01:26:24" id="1636004">
+<participant name="Mattias Ritola" gender="undefined" type="athlete" countryFK="652" enetID="2377" enetSportID="ih" del="no" n="2" ut="2010-10-08 18:18:20" id="99426"/>
+</incident>
+<incident event_participantsFK="2278406" incident_typeFK="34" incident_code="assist" ref_participantFK="75131" enetID="0" enetSportID="" elapsed="1765" sortorder="2" del="no" n="0" ut="2011-03-15 01:26:24" id="1636005">
+<participant name="Adam Hall" gender="undefined" type="athlete" countryFK="652" enetID="1701" enetSportID="ih" del="no" n="0" ut="2010-10-05 14:11:38" id="75131"/>
+</incident>
+<incident event_participantsFK="2278406" incident_typeFK="35" incident_code="assist" ref_participantFK="156347" enetID="0" enetSportID="" elapsed="1765" sortorder="3" del="no" n="0" ut="2011-03-15 01:26:24" id="1636006">
+<participant name="Nate Thompson" gender="undefined" type="athlete" countryFK="16" enetID="3831" enetSportID="ih" del="no" n="1" ut="2010-10-05 12:59:19" id="156347"/>
+</incident>
+<incident event_participantsFK="2278406" incident_typeFK="7" incident_code="goal" ref_participantFK="99426" enetID="0" enetSportID="" elapsed="1954" sortorder="1" del="no" n="1" ut="2011-03-15 01:45:41" id="1636007">
+<participant name="Mattias Ritola" gender="undefined" type="athlete" countryFK="652" enetID="2377" enetSportID="ih" del="no" n="2" ut="2010-10-08 18:18:20" id="99426"/>
+</incident>
+<incident event_participantsFK="2278406" incident_typeFK="34" incident_code="assist" ref_participantFK="186255" enetID="0" enetSportID="" elapsed="1954" sortorder="2" del="no" n="1" ut="2011-03-15 01:45:41" id="1636008">
+<participant name="Teddy Purcell" gender="undefined" type="athlete" countryFK="23" enetID="4385" enetSportID="ih" del="no" n="1" ut="2010-10-05 12:59:13" id="186255"/>
+</incident>
+<incident event_participantsFK="2278406" incident_typeFK="35" incident_code="assist" ref_participantFK="99149" enetID="0" enetSportID="" elapsed="1954" sortorder="3" del="no" n="1" ut="2011-03-15 01:45:41" id="1636009">
+<participant name="Brett Clark" gender="undefined" type="athlete" countryFK="652" enetID="2149" enetSportID="ih" del="no" n="2" ut="2010-10-06 11:00:57" id="99149"/>
+</incident>
+<incident event_participantsFK="2278406" incident_typeFK="23" incident_code="card" ref_participantFK="195306" enetID="0" enetSportID="" elapsed="2118" sortorder="1" del="no" n="0" ut="2011-03-15 01:36:11" id="1636016">
+<participant name="Mattias Ohlund" gender="undefined" type="athlete" countryFK="6" enetID="4492" enetSportID="ih" del="no" n="1" ut="2010-10-05 12:59:07" id="195306"/>
+</incident>
+<incident event_participantsFK="2278406" incident_typeFK="7" incident_code="goal" ref_participantFK="3587" enetID="0" enetSportID="" elapsed="2333" sortorder="1" del="no" n="1" ut="2011-03-15 01:45:41" id="1636017">
+<participant name="Vincent Lecavalier" gender="undefined" type="athlete" countryFK="23" enetID="1173" enetSportID="ih" del="no" n="1" ut="2010-10-05 12:59:00" id="3587"/>
+</incident>
+<incident event_participantsFK="2278406" incident_typeFK="34" incident_code="assist" ref_participantFK="3584" enetID="0" enetSportID="" elapsed="2333" sortorder="2" del="no" n="1" ut="2011-03-15 01:45:41" id="1636018">
+<participant name="Simon Gagne" gender="undefined" type="athlete" countryFK="652" enetID="1170" enetSportID="ih" del="no" n="2" ut="2010-10-06 09:44:57" id="3584"/>
+</incident>
+<incident event_participantsFK="2278406" incident_typeFK="35" incident_code="assist" ref_participantFK="186255" enetID="0" enetSportID="" elapsed="2333" sortorder="3" del="no" n="1" ut="2011-03-15 01:45:41" id="1636019">
+<participant name="Teddy Purcell" gender="undefined" type="athlete" countryFK="23" enetID="4385" enetSportID="ih" del="no" n="1" ut="2010-10-05 12:59:13" id="186255"/>
+</incident>
+<incident event_participantsFK="2278406" incident_typeFK="7" incident_code="goal" ref_participantFK="99729" enetID="0" enetSportID="" elapsed="2927" sortorder="1" del="no" n="0" ut="2011-03-15 02:17:56" id="1636033">
+<participant name="Dominic Moore" gender="undefined" type="athlete" countryFK="652" enetID="2485" enetSportID="ih" del="no" n="2" ut="2010-10-06 09:52:33" id="99729"/>
+</incident>
+<incident event_participantsFK="2278406" incident_typeFK="34" incident_code="assist" ref_participantFK="3592" enetID="0" enetSportID="" elapsed="2927" sortorder="2" del="no" n="0" ut="2011-03-15 02:17:56" id="1636034">
+<participant name="Martin St Louis" gender="undefined" type="athlete" countryFK="652" enetID="1178" enetSportID="ih" del="no" n="0" ut="2010-10-05 15:22:04" id="3592"/>
+</incident>
+<incident event_participantsFK="2278406" incident_typeFK="35" incident_code="assist" ref_participantFK="156564" enetID="0" enetSportID="" elapsed="2927" sortorder="3" del="no" n="0" ut="2011-03-15 02:17:56" id="1636035">
+<participant name="Steven Stamkos" gender="undefined" type="athlete" countryFK="23" enetID="3920" enetSportID="ih" del="no" n="1" ut="2010-10-05 12:59:19" id="156564"/>
+</incident>
+<incident event_participantsFK="2278406" incident_typeFK="7" incident_code="goal" ref_participantFK="100482" enetID="0" enetSportID="" elapsed="3272" sortorder="1" del="no" n="0" ut="2011-03-15 02:29:23" id="1636039">
+<participant name="Mike Lundin" gender="undefined" type="athlete" countryFK="652" enetID="2965" enetSportID="ih" del="no" n="2" ut="2010-10-06 11:04:28" id="100482"/>
+</incident>
+<incident event_participantsFK="2278406" incident_typeFK="34" incident_code="assist" ref_participantFK="156564" enetID="0" enetSportID="" elapsed="3272" sortorder="2" del="no" n="0" ut="2011-03-15 02:29:23" id="1636040">
+<participant name="Steven Stamkos" gender="undefined" type="athlete" countryFK="23" enetID="3920" enetSportID="ih" del="no" n="1" ut="2010-10-05 12:59:19" id="156564"/>
+</incident>
+<incident event_participantsFK="2278406" incident_typeFK="35" incident_code="assist" ref_participantFK="3592" enetID="0" enetSportID="" elapsed="3272" sortorder="3" del="no" n="0" ut="2011-03-15 02:29:23" id="1636041">
+<participant name="Martin St Louis" gender="undefined" type="athlete" countryFK="652" enetID="1178" enetSportID="ih" del="no" n="0" ut="2010-10-05 15:22:04" id="3592"/>
+</incident>
+</incidents>
+<results>
+<result event_participantsFK="2278406" result_typeFK="1" result_code="ordinarytime" value="6" del="no" n="6" ut="2011-03-15 02:27:29" id="8036220"/>
+<result event_participantsFK="2278406" result_typeFK="51" result_code="period1" value="1" del="no" n="1" ut="2011-03-15 00:27:43" id="8036222"/>
+<result event_participantsFK="2278406" result_typeFK="6" result_code="runningscore" value="6" del="no" n="6" ut="2011-03-15 02:27:29" id="8036224"/>
+<result event_participantsFK="2278406" result_typeFK="52" result_code="period2" value="3" del="no" n="3" ut="2011-03-15 01:38:31" id="9471811"/>
+<result event_participantsFK="2278406" result_typeFK="53" result_code="period3" value="2" del="no" n="2" ut="2011-03-15 02:27:29" id="9471871"/>
+<result event_participantsFK="2278406" result_typeFK="4" result_code="finalresult" value="6" del="no" n="0" ut="2011-03-15 02:38:31" id="9471919"/>
+</results>
+<lineups>
+<lineup event_participantsFK="2278406" participantFK="99426" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-14 23:46:58" id="2743056">
+<participant name="Mattias Ritola" gender="undefined" type="athlete" countryFK="652" enetID="2377" enetSportID="ih" del="no" n="2" ut="2010-10-08 18:18:20" id="99426"/>
+</lineup>
+<lineup event_participantsFK="2278406" participantFK="3592" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-14 23:46:58" id="2743057">
+<participant name="Martin St Louis" gender="undefined" type="athlete" countryFK="652" enetID="1178" enetSportID="ih" del="no" n="0" ut="2010-10-05 15:22:04" id="3592"/>
+</lineup>
+<lineup event_participantsFK="2278406" participantFK="75131" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-14 23:46:58" id="2743058">
+<participant name="Adam Hall" gender="undefined" type="athlete" countryFK="652" enetID="1701" enetSportID="ih" del="no" n="0" ut="2010-10-05 14:11:38" id="75131"/>
+</lineup>
+<lineup event_participantsFK="2278406" participantFK="99729" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-14 23:46:58" id="2743059">
+<participant name="Dominic Moore" gender="undefined" type="athlete" countryFK="652" enetID="2485" enetSportID="ih" del="no" n="2" ut="2010-10-06 09:52:33" id="99729"/>
+</lineup>
+<lineup event_participantsFK="2278406" participantFK="3622" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-14 23:46:58" id="2743060">
+<participant name="Pavel Kubina" gender="undefined" type="athlete" countryFK="652" enetID="1209" enetSportID="ih" del="no" n="2" ut="2010-10-06 11:02:48" id="3622"/>
+</lineup>
+<lineup event_participantsFK="2278406" participantFK="186255" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-14 23:46:58" id="2743061">
+<participant name="Teddy Purcell" gender="undefined" type="athlete" countryFK="23" enetID="4385" enetSportID="ih" del="no" n="1" ut="2010-10-05 12:59:13" id="186255"/>
+</lineup>
+<lineup event_participantsFK="2278406" participantFK="75200" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-14 23:46:58" id="2743062">
+<participant name="Sean Bergenheim" gender="undefined" type="athlete" countryFK="652" enetID="1757" enetSportID="ih" del="no" n="2" ut="2010-10-06 09:39:49" id="75200"/>
+</lineup>
+<lineup event_participantsFK="2278406" participantFK="3584" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-14 23:46:58" id="2743063">
+<participant name="Simon Gagne" gender="undefined" type="athlete" countryFK="652" enetID="1170" enetSportID="ih" del="no" n="2" ut="2010-10-06 09:44:57" id="3584"/>
+</lineup>
+<lineup event_participantsFK="2278406" participantFK="100117" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-14 23:46:58" id="2743064">
+<participant name="Randy Jones" gender="undefined" type="athlete" countryFK="652" enetID="2710" enetSportID="ih" del="no" n="2" ut="2010-10-06 11:02:10" id="100117"/>
+</lineup>
+<lineup event_participantsFK="2278406" participantFK="100100" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-14 23:46:58" id="2743065">
+<participant name="Steve Downie" gender="undefined" type="athlete" countryFK="23" enetID="2699" enetSportID="ih" del="no" n="1" ut="2010-10-05 12:58:42" id="100100"/>
+</lineup>
+<lineup event_participantsFK="2278406" participantFK="195306" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-14 23:46:58" id="2743066">
+<participant name="Mattias Ohlund" gender="undefined" type="athlete" countryFK="6" enetID="4492" enetSportID="ih" del="no" n="1" ut="2010-10-05 12:59:07" id="195306"/>
+</lineup>
+<lineup event_participantsFK="2278406" participantFK="99149" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-14 23:46:58" id="2743067">
+<participant name="Brett Clark" gender="undefined" type="athlete" countryFK="652" enetID="2149" enetSportID="ih" del="no" n="2" ut="2010-10-06 11:00:57" id="99149"/>
+</lineup>
+<lineup event_participantsFK="2278406" participantFK="75355" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-14 23:46:58" id="2743068">
+<participant name="Eric Brewer" gender="undefined" type="athlete" countryFK="23" enetID="1841" enetSportID="ih" del="no" n="1" ut="2010-10-05 12:55:52" id="75355"/>
+</lineup>
+<lineup event_participantsFK="2278406" participantFK="3587" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-14 23:46:58" id="2743069">
+<participant name="Vincent Lecavalier" gender="undefined" type="athlete" countryFK="23" enetID="1173" enetSportID="ih" del="no" n="1" ut="2010-10-05 12:59:00" id="3587"/>
+</lineup>
+<lineup event_participantsFK="2278406" participantFK="99362" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-14 23:46:58" id="2743070">
+<participant name="Mike Smith" gender="undefined" type="athlete" countryFK="652" enetID="2314" enetSportID="ih" del="no" n="0" ut="2009-10-06 21:37:03" id="99362"/>
+</lineup>
+<lineup event_participantsFK="2278406" participantFK="99369" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-14 23:46:58" id="2743071">
+<participant name="Dwayne Roloson" gender="undefined" type="athlete" countryFK="23" enetID="2321" enetSportID="ih" del="no" n="1" ut="2010-10-05 12:54:39" id="99369"/>
+</lineup>
+<lineup event_participantsFK="2278406" participantFK="156564" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-14 23:46:58" id="2743072">
+<participant name="Steven Stamkos" gender="undefined" type="athlete" countryFK="23" enetID="3920" enetSportID="ih" del="no" n="1" ut="2010-10-05 12:59:19" id="156564"/>
+</lineup>
+<lineup event_participantsFK="2278406" participantFK="186124" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-14 23:46:58" id="2743073">
+<participant name="Victor Hedman" gender="undefined" type="athlete" countryFK="6" enetID="4372" enetSportID="ih" del="no" n="1" ut="2010-10-05 12:58:48" id="186124"/>
+</lineup>
+<lineup event_participantsFK="2278406" participantFK="100463" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-14 23:46:58" id="2743074">
+<participant name="Blair Jones" gender="undefined" type="athlete" countryFK="23" enetID="2953" enetSportID="ih" del="no" n="1" ut="2010-10-05 12:58:54" id="100463"/>
+</lineup>
+<lineup event_participantsFK="2278406" participantFK="100181" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-14 23:46:58" id="2743075">
+<participant name="Marc-Andre Bergeron" gender="undefined" type="athlete" countryFK="652" enetID="2734" enetSportID="ih" del="no" n="0" ut="2011-01-05 08:18:43" id="100181"/>
+</lineup>
+<lineup event_participantsFK="2278406" participantFK="156347" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-14 23:46:58" id="2743076">
+<participant name="Nate Thompson" gender="undefined" type="athlete" countryFK="16" enetID="3831" enetSportID="ih" del="no" n="1" ut="2010-10-05 12:59:19" id="156347"/>
+</lineup>
+<lineup event_participantsFK="2278406" participantFK="230004" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-14 23:46:58" id="2743077">
+<participant name="Dana Tyrell" gender="male" type="athlete" countryFK="23" enetID="0" enetSportID="" del="no" n="0" ut="2010-10-05 14:42:04" id="230004"/>
+</lineup>
+<lineup event_participantsFK="2278406" participantFK="100482" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-14 23:46:58" id="2743078">
+<participant name="Mike Lundin" gender="undefined" type="athlete" countryFK="652" enetID="2965" enetSportID="ih" del="no" n="2" ut="2010-10-06 11:04:28" id="100482"/>
+</lineup>
+<lineup event_participantsFK="2278406" participantFK="100505" lineup_typeFK="5" shirt_number="0" pos="0" enet_pos="0" del="no" n="0" ut="2011-03-14 23:46:58" id="2743079">
+<participant name="Matt Smaby" gender="undefined" type="athlete" countryFK="16" enetID="2981" enetSportID="ih" del="no" n="1" ut="2010-10-05 12:59:13" id="100505"/>
+</lineup>
+</lineups>
+</event_participant>
+</event>
+</tournament_stage>
+</tournament>
+</tournament_template>
+</sport>
+</query-response>
+</spocosy>
